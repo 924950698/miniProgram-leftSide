@@ -1,0 +1,132 @@
+.page{
+	border: 0.1px solid red;
+  width: 100vw;
+  background:#f1f3f5;
+  overflow-x: hidden;
+}
+
+.button-slide{
+	height: 90rpx;
+	width: 90rpx;
+	position: absolute;
+	right: -138rpx;
+	border-radius: 45rpx;
+	overflow: hidden;
+}
+
+.button-edit{
+	border: 1px solid #000000;
+	top: 40rpx;
+	background-color: #09bb07;
+}
+
+.button-delete{
+	top:170rpx;
+	background-color: #e64340;
+}
+
+.icon-edit{	
+	color: white;
+	height: 60rpx;
+	width: 60rpx;
+	position: relative;
+	left: -100rpx;
+	border-right: 100rpx solid transparent;
+	-webkit-filter:drop-shadow(100rpx 0 white);
+	filter:drop-shadow(100rpx 0 white);
+	margin:14rpx 0 0 17rpx;
+}
+
+.icon-delete{
+	color: white;
+	height: 60rpx;
+	width: 60rpx;
+	position: relative;
+	left: -100rpx;
+	border-right: 100rpx solid transparent;
+	-webkit-filter:drop-shadow(100rpx 0 white);
+	filter:drop-shadow(100rpx 0 white);
+	margin:14rpx 0 0 17rpx;
+}
+
+.card-content{
+	position: relative;
+		width: 700rpx;
+		height: 300rpx;
+    background:bisque;
+		border-radius: 20rpx;
+}
+
+.scroll-view-item{
+	border: 1px solid blue;
+    position: relative;
+
+	margin-left: 25rpx;
+}
+
+.card-avatar{
+    position: absolute;
+    top: 24rpx;
+    left: 48rpx;
+}
+
+.card-username{
+    position: absolute;
+    width: auto;
+    top: 34rpx;
+    left:124rpx;
+    font-family: PingFangSC-Medium;
+	font-size: 28rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rpx;
+	color: #ffffff;
+}
+
+.group-title{
+    position: absolute;
+    white-space: nowrap;
+    top: 100rpx;
+    width: 550rpx;
+    font-family: PingFangSC-Bold;
+	font-size: 60rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rpx;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    left: 75rpx;
+    text-align: center;
+}
+
+.group-description{
+    position: absolute;
+    width: 600rpx;
+    left: 50rpx;
+    text-align: center;
+    text-overflow: ellipsis;
+        top: 203rpx;
+        font-family: PingFangSC-Light;
+        font-size: 24rpx;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 34rpx;
+        letter-spacing: 0rpx;
+        color: #ffffff;
+}
+
+.collection{
+	position: absolute;
+	top:29rpx;
+right:43rpx;
+color:white;
+}
+
+.avatar-small{
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 30rpx;
+	background-color: #000000;
+	border: solid 2rpx #ffffff;
+}

@@ -1,0 +1,104 @@
+<movable-area
+    class="page"
+    style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};">
+    <movable-view x="{{x}}" class="scroll-view-item" style="width: 700rpx; height: 300rpx;" direction="horizontal"
+        out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除{{x}}</text>
+        </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+                style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;' />
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
+
+<movable-area style="height: 300rpx; margin-bottom: 24rpx;width:{{showLike?'700rpx':'900rpx'}};position:relative;left: {{showLike?'25rpx':'-175rpx'}};" >
+    <movable-view
+            x="{{x}}"
+            class="scroll-view-item" style="width: 700rpx; height: 300rpx;"
+            direction="horizontal" out-of-bounds="true">
+        <view class="card-content" bind:tap="bindGroupTapInner">
+            <text class="group-title">侧滑删除</text>
+            </view>
+        <view class="button-edit button-slide" bindtap="bindGroupEditTap">
+            <i class="iconfont icon-editor"
+               style='font-size:58rpx; color:white; position:absolute; top:14rpx; left:16rpx;'/>
+        </view>
+    </movable-view>
+</movable-area>
